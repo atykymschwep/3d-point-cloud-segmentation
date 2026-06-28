@@ -61,7 +61,7 @@ make -j$(nproc)
 ```
 
 ## 📚 Tech Stack
-   **Languages:** Python 3, C++17
-   **Core Library:** Open3D (Python API & C++ SDK)
-   **Math & Geometry:** NumPy, Eigen
-   **Build System:** CMake, Make
+   **Languages:** Python 3, C++17.
+   **Core Library:** Open3D (Python API & C++ SDK).
+   **Math & Geometry:** NumPy, Eigen.
+   **Build System:** CMake, Make.
