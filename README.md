@@ -28,13 +28,13 @@ Ensure your package manager is up to date and install the required libraries:
 sudo apt update
 sudo apt install python3-pip
 pip3 install open3d numpy matplotlib
-
+```
 ### Run
 
 ```bash
 cd python
 python3 main.py
-
+```
 ## ⚙️ C++ (Production Engine)
 
 ### Setup & Prerequisites
@@ -44,7 +44,7 @@ Install the Clang compiler and build tools:
 ```bash
 sudo apt update
 sudo apt install clang libc++-dev libc++abi-dev cmake build-essential
-
+```
 Download and extract the Open3D C++ SDK to your system (update the CMAKE_PREFIX_PATH in your build command accordingly).
 
 ### Build & Run
@@ -58,10 +58,9 @@ cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_PREFIX_PATH=
 make -j$(nproc)
 # Execute the pipeline
 ./robot_vision
-
+```
 
 ## 📚 Tech Stack
-
     **Languages:** Python 3, C++17
     **Core Library:** Open3D (Python API & C++ SDK)
     **Math & Geometry:** NumPy, Eigen
